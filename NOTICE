@@ -1,0 +1,19 @@
+Flight data
+  Contains information from adsb.lol's globe_history archive, made available
+  under the Open Database License (ODbL) 1.0:
+  https://opendatacommons.org/licenses/odbl/1-0/
+  Source: https://github.com/adsblol (globe_history_2023 to globe_history_2026)
+  The index this code builds is a derivative database of it; this repository
+  is the method of making it (ODbL 4.6).
+
+Airports (data/airports.csv)
+  From OurAirports, https://ourairports.com, released into the public domain.
+
+Airlines (data/airlines.csv)
+  From Open Travel Data, https://github.com/opentraveldata/opentraveldata,
+  used under the Creative Commons Attribution 4.0 licence
+  (https://creativecommons.org/licenses/by/4.0/), filtered to the airlines
+  Dayside Flights needs.
+
+Fixtures (fixtures/trace-*.json.gz)
+  Two aircraft's traces for 2024-05-15 from the adsb.lol archive, ODbL 1.0.

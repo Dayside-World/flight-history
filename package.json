@@ -1,0 +1,10 @@
+{
+  "name": "flight-history",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Which aircraft flew a flight, from adsb.lol's open ADS-B archive.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test 'test/*.test.mjs'" }
+}
